@@ -39,7 +39,7 @@ const skillsSection = {
     emoji("⚡ Active open-source contributor"),
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),    
+    ),
     emoji(
       "⚡ Solve real world problems to make our day to day life easier by creating utility tools"
     )
@@ -121,7 +121,7 @@ const skillsSection = {
     {
       skillName: "PHP",
       image: "php.png"
-    },
+    }
   ],
 
   frameworks: [
@@ -136,7 +136,7 @@ const skillsSection = {
     {
       skillName: "jQuery",
       image: "jquery.png"
-    },
+    }
   ],
 
   databases: [
@@ -155,7 +155,7 @@ const skillsSection = {
     {
       skillName: "Firebase",
       image: "firebase.png"
-    },
+    }
   ],
 
   others: [
@@ -174,7 +174,7 @@ const skillsSection = {
     {
       skillName: "Linux",
       image: "linux.png"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -189,7 +189,7 @@ const educationInfo = {
       logo: IITLogo,
       subHeader: "Integrated Master of Technology in Mathematics and Computing",
       duration: "July 2019 - Present",
-      desc: "CGPA: 8.91",
+      desc: "CGPA: 8.91"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -229,8 +229,7 @@ const workExperiences = {
       company: "ConsultBae",
       companylogo: require("./assets/images/consultbaeLogo.jpg").default,
       date: "November 2020 – December 2020",
-      desc:
-        "Developed a fully responsive and mobile-friendly website for a job consultancy startup that matches the right talent with the organization",
+      desc: "Developed a fully responsive and mobile-friendly website for a job consultancy startup that matches the right talent with the organization",
       descBullets: [
         "Developed frontend in React",
         "Connected with Node.js backend",
@@ -257,7 +256,8 @@ const bigProjects = {
     {
       image: require("./assets/images/fossologyLogo.png").default,
       projectName: "FOSSology",
-      projectDesc: "FOSSology is an open source license compliance software system and toolkit.",
+      projectDesc:
+        "FOSSology is an open source license compliance software system and toolkit.",
       footerLink: [
         {
           name: "Website",
@@ -272,7 +272,8 @@ const bigProjects = {
     {
       image: require("./assets/images/thanosLogo.png").default,
       projectName: "Thanos",
-      projectDesc: "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+      projectDesc:
+        "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
       footerLink: [
         {
           name: "Website",
@@ -332,7 +333,7 @@ const achievementSection = {
         //     "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         // }
       ]
-    },
+    }
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -358,8 +359,7 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"

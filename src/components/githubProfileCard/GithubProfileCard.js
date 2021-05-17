@@ -1,4 +1,4 @@
-import React, {useContext}  from "react";
+import React, {useContext} from "react";
 import "./GithubProfileCard.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
@@ -32,7 +32,7 @@ export default function GithubProfileCard({prof}) {
                     width="20"
                     height="18"
                     aria-hidden="true"
-                    fill={isDark ? 'white' : 'black'}
+                    fill={isDark ? "white" : "black"}
                   >
                     <path
                       fillRule="evenodd"

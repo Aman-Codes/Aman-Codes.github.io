@@ -15,7 +15,15 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={language.skillName}
               >
-                <img src={require(`../../assets/images/skill/${language.image}`).default} alt={language.skillName} width="45" height="45"/>
+                <img
+                  src={
+                    require(`../../assets/images/skill/${language.image}`)
+                      .default
+                  }
+                  alt={language.skillName}
+                  width="45"
+                  height="45"
+                />
                 <p>{language.skillName}</p>
               </li>
             );
@@ -31,7 +39,15 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={framework.skillName}
               >
-                <img src={require(`../../assets/images/skill/${framework.image}`).default} alt={framework.skillName} width="45" height="45"/>
+                <img
+                  src={
+                    require(`../../assets/images/skill/${framework.image}`)
+                      .default
+                  }
+                  alt={framework.skillName}
+                  width="45"
+                  height="45"
+                />
                 <p>{framework.skillName}</p>
               </li>
             );
@@ -48,46 +64,75 @@ export default function SoftwareSkill() {
                   className="software-skill-inline"
                   name={database.skillName}
                 >
-                  <img src={require(`../../assets/images/skill/${database.image}`).default} alt={database.skillName} width="85" height="35"/>
+                  <img
+                    src={
+                      require(`../../assets/images/skill/${database.image}`)
+                        .default
+                    }
+                    alt={database.skillName}
+                    width="85"
+                    height="35"
+                  />
                   <p>{database.skillName}</p>
                 </li>
               );
-            }
-            else if (i == 1) {
+            } else if (i == 1) {
               return (
                 <li
                   key={i}
                   className="software-skill-inline"
                   name={database.skillName}
                 >
-                  <img src={require(`../../assets/images/skill/${database.image}`).default} alt={database.skillName} width="75" height="45"/>
+                  <img
+                    src={
+                      require(`../../assets/images/skill/${database.image}`)
+                        .default
+                    }
+                    alt={database.skillName}
+                    width="75"
+                    height="45"
+                  />
                   <p>{database.skillName}</p>
                 </li>
-              );              
-            }
-            else if (i == 2) {
+              );
+            } else if (i == 2) {
               return (
                 <li
                   key={i}
                   className="software-skill-inline"
                   name={database.skillName}
                 >
-                  <img src={require(`../../assets/images/skill/${database.image}`).default} alt={database.skillName} width="45" height="45"/>
+                  <img
+                    src={
+                      require(`../../assets/images/skill/${database.image}`)
+                        .default
+                    }
+                    alt={database.skillName}
+                    width="45"
+                    height="45"
+                  />
                   <p>{database.skillName}</p>
                 </li>
-              );              
-            }
-            else if (i == 3) {
+              );
+            } else if (i == 3) {
               return (
                 <li
                   key={i}
                   className="software-skill-inline"
                   name={database.skillName}
                 >
-                  <img src={require(`../../assets/images/skill/${database.image}`).default} alt={database.skillName} width="45" height="45"/>
+                  <img
+                    src={
+                      require(`../../assets/images/skill/${database.image}`)
+                        .default
+                    }
+                    alt={database.skillName}
+                    width="45"
+                    height="45"
+                  />
                   <p>{database.skillName}</p>
                 </li>
-              );              
+              );
             }
           })}
         </ul>
@@ -101,7 +146,14 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={other.skillName}
               >
-                <img src={require(`../../assets/images/skill/${other.image}`).default} alt={other.skillName} width="45" height="45"/>
+                <img
+                  src={
+                    require(`../../assets/images/skill/${other.image}`).default
+                  }
+                  alt={other.skillName}
+                  width="45"
+                  height="45"
+                />
                 <p>{other.skillName}</p>
               </li>
             );

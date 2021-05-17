@@ -68,14 +68,14 @@
 }
 
 @media (max-width: 600px) {
-  .skills-main-div{
+  .skills-main-div {
     visibility: hidden !important;
     display: none !important;
   }
 }
 
 @media (max-width: 1100px) {
-  .skills-main-div svg{
+  .skills-main-div svg {
     padding-left: 0 !important;
     height: auto !important;
     width: auto !important;
@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 750px) {
-  .skills-main-div svg{
+  .skills-main-div svg {
     padding-left: 100px !important;
   }
 }
