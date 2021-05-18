@@ -12,14 +12,11 @@
 .greeting-main {
   display: flex;
   margin-bottom: 60px;
+  padding-top: 100px;
 }
 
 .subTitle {
   color: #868e96 !important;
-}
-
-.greeting-main {
-  display: flex;
 }
 
 .greeting-main > * {

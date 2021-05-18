@@ -2,7 +2,7 @@ import React from "react";
 import "./Progress.css";
 import {skillsSection, illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
-import Build from "../../assets/lottie/build";
+// import Build from "../../assets/lottie/build";
 import b from "../../assets/lottie/new/36707-working-man.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 

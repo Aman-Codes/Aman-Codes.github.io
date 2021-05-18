@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
-import landingPerson from "../../assets/lottie/landingPerson";
+// import landingPerson from "../../assets/lottie/landingPerson";
 import a from "../../assets/lottie/new/51971-hello.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -45,6 +45,7 @@ export default function Greeting() {
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
+                  rel="noopener noreferrer"
                 />
               </div>
             </div>

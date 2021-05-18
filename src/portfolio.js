@@ -1,4 +1,4 @@
-﻿import emoji from "react-easy-emoji";
+import emoji from "react-easy-emoji";
 import IITLogo from "./assets/images/IITLogo.png";
 
 const illustration = {
@@ -12,7 +12,7 @@ const greeting = {
     "Full Stack Developer 🚀 || Mathematics and Computing Sophomore @ IIT (ISM) Dhanbad 🎓 || Open Source enthusiast  "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1GezXZCh1AOc9XsKOFKzeeDrYDdsE6RXs/view?usp=sharing",
+    "https://drive.google.com/file/d/19wP-57dzA0KHx6BfGK3wvxsgtVKRadZx/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -254,7 +254,7 @@ const bigProjects = {
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/fossologyLogo.png").default,
+      image: require("./assets/images/fossologyLogo1.png").default,
       projectName: "FOSSology",
       projectDesc:
         "FOSSology is an open source license compliance software system and toolkit.",

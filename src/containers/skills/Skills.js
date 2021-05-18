@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "./Skills.css";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
+// import codingPerson from "../../assets/lottie/codingPerson";
 import a from "../../assets/lottie/new/28391-web-development.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
