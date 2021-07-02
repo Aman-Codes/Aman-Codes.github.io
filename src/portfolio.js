@@ -12,7 +12,7 @@ const greeting = {
     "Full Stack Developer 🚀 || Mathematics and Computing Sophomore @ IIT (ISM) Dhanbad 🎓 || Open Source enthusiast  "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/19wP-57dzA0KHx6BfGK3wvxsgtVKRadZx/view?usp=sharing",
+    "https://drive.google.com/file/d/1g22fmTKTxg_K4NLp9tGwq3sHFFoFY3CK/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
