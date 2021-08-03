@@ -24,7 +24,7 @@ const socialMediaLinks = {
   gmail: "aman.dwivedi5@gmail.com",
   gitlab: "https://gitlab.com/Aman-Codes",
   facebook: "https://www.facebook.com/AmanCodes",
-  // medium: "https://medium.com/@saadpasta",
+  medium: "https://aman-codes.medium.com/",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
