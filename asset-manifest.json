@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.ced410aa.chunk.css",
-    "main.js": "/static/js/main.af49a6f7.chunk.js",
-    "main.js.map": "/static/js/main.af49a6f7.chunk.js.map",
+    "main.js": "/static/js/main.92e97070.chunk.js",
+    "main.js.map": "/static/js/main.92e97070.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa34ecaa.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa34ecaa.js.map",
-    "static/js/2.aed9129b.chunk.js": "/static/js/2.aed9129b.chunk.js",
-    "static/js/2.aed9129b.chunk.js.map": "/static/js/2.aed9129b.chunk.js.map",
+    "static/js/2.61615bf8.chunk.js": "/static/js/2.61615bf8.chunk.js",
+    "static/js/2.61615bf8.chunk.js.map": "/static/js/2.61615bf8.chunk.js.map",
     "static/css/3.2f42733b.chunk.css": "/static/css/3.2f42733b.chunk.css",
     "static/js/3.195ab56f.chunk.js": "/static/js/3.195ab56f.chunk.js",
     "static/js/3.195ab56f.chunk.js.map": "/static/js/3.195ab56f.chunk.js.map",
@@ -17,7 +17,7 @@
     "static/css/3.2f42733b.chunk.css.map": "/static/css/3.2f42733b.chunk.css.map",
     "static/css/4.c8ea90b0.chunk.css.map": "/static/css/4.c8ea90b0.chunk.css.map",
     "static/css/main.ced410aa.chunk.css.map": "/static/css/main.ced410aa.chunk.css.map",
-    "static/js/2.aed9129b.chunk.js.LICENSE.txt": "/static/js/2.aed9129b.chunk.js.LICENSE.txt",
+    "static/js/2.61615bf8.chunk.js.LICENSE.txt": "/static/js/2.61615bf8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/AmanDwivedi.jpg": "/static/media/AmanDwivedi.67db4069.jpg",
     "static/media/BrickBreakingGame.png": "/static/media/BrickBreakingGame.2041d18e.png",
@@ -47,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fa34ecaa.js",
-    "static/js/2.aed9129b.chunk.js",
+    "static/js/2.61615bf8.chunk.js",
     "static/css/main.ced410aa.chunk.css",
-    "static/js/main.af49a6f7.chunk.js"
+    "static/js/main.92e97070.chunk.js"
   ]
 }
