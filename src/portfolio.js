@@ -9,7 +9,7 @@ const greeting = {
   username: "Aman-Codes",
   title: "Hi, I'm Aman",
   subTitle: emoji(
-    "Full Stack Developer 🚀 || Mathematics and Computing Sophomore @ IIT (ISM) Dhanbad 🎓 || Open Source enthusiast  "
+    "Full Stack Developer 🚀 || Open Source enthusiast 👨‍💻 || IIT (ISM) Dhanbad 🎓"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1g22fmTKTxg_K4NLp9tGwq3sHFFoFY3CK/view?usp=sharing",
@@ -355,23 +355,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Some of my blogs where I have penned down my open-source journey",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://aman-codes.medium.com/my-pre-gsoc-journey-247d061159df",
+      title: "My pre-GSoC journey",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "My pre-GSoC journey in a nutshell: It’s more difficult to reach from level 0 to level 1 than from level 1 to level 10."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://aman-codes.medium.com/google-summer-of-code-2021-with-fossology-ef14bfb8bad2",
+      title: "GSoC 2021 with FOSSology",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "An amazing experience, numerous lines of code, implementation from scratch, a lot of debugging, and above all a great learning opportunity describes my GSoC journey."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
