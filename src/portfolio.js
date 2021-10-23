@@ -12,7 +12,7 @@ const greeting = {
     "Full Stack Developer 🚀 || Open Source enthusiast 👨‍💻 || IIT (ISM) Dhanbad 🎓"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1g22fmTKTxg_K4NLp9tGwq3sHFFoFY3CK/view?usp=sharing",
+    "https://drive.google.com/file/d/1MQ23TBDHDEkWl8SSUjoutRQAIDZuF4xN/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -250,14 +250,32 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Open Source Projects",
+  title: "Open Source Contributions",
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/litmusLogo.png").default,
+      projectName: "Litmus Chaos",
+      subtitle: "LFX Mentee Fall 2021",
+      projectDesc:
+        "A Chaos Engineering platform that enables teams to identify weaknesses & potential outages in infrastructures by inducing chaos tests in a controlled way.",
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://litmuschaos.io/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/pulls?q=is%3Apr+org%3Alitmuschaos+author%3AAman-Codes+sort%3Aupdated-desc+is%3Aclosed"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/fossologyLogo1.png").default,
       projectName: "FOSSology",
+      subtitle: "GSoC 2021",
       projectDesc:
-        "FOSSology is an open source license compliance software system and toolkit.",
+        "FOSSology is an open source license compliance software system and toolkit. As a toolkit you can run license, copyright and export control scans from the command line.",
       footerLink: [
         {
           name: "Website",
@@ -265,15 +283,16 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/fossology/fossology"
+          url: "https://github.com/pulls?q=is%3Apr+org%3Afossology+author%3AAman-Codes+sort%3Aupdated-desc+is%3Aclosed"
         }
       ]
     },
     {
       image: require("./assets/images/thanosLogo.png").default,
       projectName: "Thanos",
+      subtitle: "Contributor",
       projectDesc:
-        "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+        "Thanos is a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.",
       footerLink: [
         {
           name: "Website",
@@ -281,7 +300,7 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/thanos-io/thanos"
+          url: "https://github.com/thanos-io/thanos/pulls?q=is%3Apr+author%3AAman-Codes+is%3Aclosed"
         }
       ]
     }
@@ -369,6 +388,12 @@ const blogSection = {
       title: "GSoC 2021 with FOSSology",
       description:
         "An amazing experience, numerous lines of code, implementation from scratch, a lot of debugging, and above all a great learning opportunity describes my GSoC journey."
+    },
+    {
+      url: "https://aman-codes.medium.com/kick-start-of-my-lfx-mentorship-with-litmus-chaos-eeb089a10951",
+      title: "LFX Mentorship with Litmus Chaos",
+      description:
+        "Starting my journey with Litmus Chaos (a CNCF sandbox project) to contribute and learn about chaos engineering and cloud native technologies."
     }
   ],
   display: true // Set false to hide this section, defaults to true
