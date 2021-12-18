@@ -12,11 +12,9 @@ const greeting = {
     "Full Stack Developer 🚀 || Open Source enthusiast 👨‍💻 || IIT (ISM) Dhanbad 🎓"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1MQ23TBDHDEkWl8SSUjoutRQAIDZuF4xN/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1TqoSZA6BASkm2xiDeNxp-nVbYpe86GG4/view?usp=sharing",
+  displayGreeting: true
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/Aman-Codes",
@@ -25,12 +23,9 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/Aman-Codes",
   facebook: "https://www.facebook.com/AmanCodes",
   medium: "https://aman-codes.medium.com/",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram and Twitter are also supported in the links!
-  display: true // Set true to display this section, defaults to false
+  twitter: "https://twitter.com/AD_Aman_Codes",
+  display: true
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
@@ -44,59 +39,6 @@ const skillsSection = {
       "⚡ Solve real world problems to make our day to day life easier by creating utility tools"
     )
   ],
-
-  /* For icons: https://simpleicons.org/ */
-
-  // softwareSkills: [
-  //   {
-  //     skillName: "reactjs",
-  //     fontAwesomeClassname: "fab fa-react"
-  //   },
-  //   {
-  //     skillName: "nodejs",
-  //     fontAwesomeClassname: "fab fa-node"
-  //   },
-  //   {
-  //     skillName: "JavaScript",
-  //     fontAwesomeClassname: "fab fa-js"
-  //   },
-  //   {
-  //     skillName: "html-5",
-  //     fontAwesomeClassname: "fab fa-html5"
-  //   },
-  //   {
-  //     skillName: "css3",
-  //     fontAwesomeClassname: "fab fa-css3-alt"
-  //   },
-  //   {
-  //     skillName: "sass",
-  //     fontAwesomeClassname: "fab fa-sass"
-  //   },
-  //   {
-  //     skillName: "sql-database",
-  //     fontAwesomeClassname: "fas fa-database"
-  //   },
-  //   {
-  //     skillName: "aws",
-  //     fontAwesomeClassname: "fab fa-aws"
-  //   },
-  //   {
-  //     skillName: "firebase",
-  //     fontAwesomeClassname: "fas fa-fire"
-  //   },
-  //   {
-  //     skillName: "python",
-  //     fontAwesomeClassname: "fab fa-python"
-  //   },
-  //   {
-  //     skillName: "php",
-  //     fontAwesomeClassname: "fab fa-php"
-  //   },
-  //   {
-  //     skillName: "docker",
-  //     fontAwesomeClassname: "fab fa-docker"
-  //   }
-  // ],
   languages: [
     {
       skillName: "Javascript",
@@ -176,53 +118,24 @@ const skillsSection = {
       image: "linux.png"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "IIT (ISM) Dhanbad",
       logo: IITLogo,
       subHeader: "Integrated Master of Technology in Mathematics and Computing",
       duration: "July 2019 - Present",
-      desc: "CGPA: 8.91"
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      desc: "CGPA: 8.77"
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
-// Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "Web Developer",
@@ -239,15 +152,11 @@ const workExperiences = {
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "true",
+  display: true
 };
-
-// Some big projects you have worked on
 
 const bigProjects = {
   title: "Open Source Contributions",
@@ -262,7 +171,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Website",
-          url: "https://litmuschaos.io/"
+          url: "https://litmuschaos.github.io/litmus-e2e/dashboard"
         },
         {
           name: "GitHub",
@@ -308,15 +217,19 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements 🏆 "),
   // subtitle:
   //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Winner WebCrawler Techfest",
+      subtitle:
+        "1st prize in WebCrawler competition during Techfest, an international hackathon conducted by IIT Bombay.",
+      image: require("./assets/images/techfestLogo.png").default,
+      footerLink: []
+    },
     {
       title: "Hackfest Finalist",
       subtitle:
@@ -328,16 +241,6 @@ const achievementSection = {
         //   url:
         //     "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         // },
-        // {
-        //   name: "Award Letter",
-        //   url:
-        //     "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   url:
-        //     "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
       ]
     },
     {
@@ -345,31 +248,11 @@ const achievementSection = {
       subtitle:
         "Ranked 1st out of 100+ teams in Codebyte, website development competition at IIT (ISM) Dhanbad",
       image: require("./assets/images/codebyteLogo.jpg").default,
-      footerLink: [
-        // {
-        //   name: "View Google Assistant Action",
-        //   url:
-        //     "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        // }
-      ]
+      footerLink: []
     }
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
@@ -396,40 +279,10 @@ const blogSection = {
         "Starting my journey with Litmus Chaos (a CNCF sandbox project) to contribute and learn about chaos engineering and cloud native technologies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -439,27 +292,16 @@ const contactInfo = {
   email_address: "aman.dwivedi5@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
-};
-
 export {
   illustration,
   greeting,
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   openSource,
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails
 };

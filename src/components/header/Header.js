@@ -9,7 +9,7 @@ import {
   skillsSection,
   openSource,
   blogSection,
-  talkSection,
+  // talkSection,
   achievementSection
 } from "../../portfolio";
 
@@ -20,7 +20,7 @@ function Header() {
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  // const viewTalks = talkSection.display;
 
   return (
     // <Headroom>
@@ -60,11 +60,11 @@ function Header() {
             <a href="#blogs">Blogs</a>
           </li>
         )}
-        {viewTalks && (
+        {/* {viewTalks && (
           <li>
             <a href="#talks">Talks</a>
           </li>
-        )}
+        )} */}
         <li>
           <a href="#contact">Contact Me</a>
         </li>

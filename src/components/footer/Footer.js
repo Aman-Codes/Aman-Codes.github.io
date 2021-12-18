@@ -10,12 +10,12 @@ export default function Footer() {
       <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
         {emoji("Made with ❤️ by Aman Dwivedi")}
       </p>
-      <p className={isDark ? "dark-mode theme-text" : "theme-text"}>
+      {/* <p className={isDark ? "dark-mode theme-text" : "theme-text"}>
         Theme by{" "}
         <a href="https://github.com/saadpasta/developerFolio">
           developerFolio
         </a>
-      </p>
+      </p> */}
     </div>
   );
 }
