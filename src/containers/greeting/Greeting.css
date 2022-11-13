@@ -106,7 +106,7 @@
   }
   .greeting-main {
     display: block;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
   .greeting-image-div {
     height: 500px;

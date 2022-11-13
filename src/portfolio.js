@@ -12,7 +12,7 @@ const greeting = {
     "Full Stack Developer 🚀 || Open Source enthusiast 👨‍💻 || IIT (ISM) Dhanbad 🎓"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1He90_UMV4l_xRjx9iAb6grWA5RYmBVL6/view?usp=share_link",
+    "https://drive.google.com/file/d/1OVQIwxECFVwB2SaRsT-ynDG6L2ayD6nr/view?usp=share_link",
   displayGreeting: true
 };
 
@@ -129,7 +129,7 @@ const educationInfo = {
       logo: IITLogo,
       subHeader: "Integrated Master of Technology in Mathematics and Computing",
       duration: "July 2019 - Present",
-      desc: "CGPA: 8.77"
+      desc: "CGPA: 8.87"
     }
   ]
 };
@@ -138,16 +138,31 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Web Developer",
-      company: "ConsultBae",
-      companylogo: require("./assets/images/consultbaeLogo.jpg").default,
-      date: "November 2020 – December 2020",
-      desc: "Developed a fully responsive and mobile-friendly website for a job consultancy startup that matches the right talent with the organization",
-      descBullets: [
-        "Developed frontend in React",
-        "Connected with Node.js backend",
-        "Addded SSL certificate and deployed on AWS"
-      ]
+      role: "Software Engineer Intern",
+      company: "ChaosNative (Harness)",
+      companylogo: require("./assets/images/chaosNativeLogo.jpg").default,
+      date: "January 2022 - June 2022",
+      desc: "Prepared 100+ test cases to perform API testing using Cypress and reported several critical security vulnerabilities. Built a GitHub action pipeline to run automated tests for every PR.",
+      overrideColor: "#ee2767",
+      // descBullets: [
+      //   "Developed frontend in React",
+      //   "Connected with Node.js backend",
+      //   "Addded SSL certificate and deployed on AWS"
+      // ]
+    },
+    {
+      role: "Linux Foundation Externship Mentee",
+      company: "LitmusChaos",
+      companylogo: require("./assets/images/lfx.png").default,
+      date: "September 2021 - November 2021",
+      desc: "Developed an E2E dashboard with CI/CD pipeline details and enhanced the Litmus E2E website. Created a Go server to fetch GitHub pipeline run logs.",
+    },
+    {
+      role: "Google Summer of Code",
+      company: "FOSSology",
+      companylogo: require("./assets/images/gsocLogo.png").default,
+      date: "June 2021 - August 2021",
+      desc: "Migrated UI from PHP to React while ensuring a highly scalable, flexible and maintainable code architecture. Upgraded the existing API and integrated it with the new frontend code.",
     }
   ]
 };
@@ -165,7 +180,7 @@ const bigProjects = {
     {
       image: require("./assets/images/litmusLogo.png").default,
       projectName: "Litmus Chaos",
-      subtitle: "LFX Mentee Fall 2021",
+      // subtitle: "LFX Mentee Fall 2021",
       projectDesc:
         "A Chaos Engineering platform that enables teams to identify weaknesses & potential outages in infrastructures by inducing chaos tests in a controlled way.",
       footerLink: [
@@ -175,14 +190,14 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/pulls?q=is%3Apr+org%3Alitmuschaos+author%3AAman-Codes+sort%3Aupdated-desc+is%3Aclosed"
+          url: "https://github.com/pulls?q=is%3Apr+is%3Amerged+org%3Alitmuschaos+author%3AAman-Codes+sort%3Aupdated-desc"
         }
       ]
     },
     {
       image: require("./assets/images/fossologyLogo1.png").default,
       projectName: "FOSSology",
-      subtitle: "GSoC 2021",
+      // subtitle: "GSoC 2021",
       projectDesc:
         "FOSSology is an open source license compliance software system and toolkit. As a toolkit you can run license, copyright and export control scans from the command line.",
       footerLink: [
@@ -192,14 +207,14 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/pulls?q=is%3Apr+org%3Afossology+author%3AAman-Codes+sort%3Aupdated-desc+is%3Aclosed"
+          url: "https://github.com/pulls?q=is%3Apr+is%3Amerged+org%3Afossology+author%3AAman-Codes+sort%3Aupdated-desc"
         }
       ]
     },
     {
       image: require("./assets/images/thanosLogo.png").default,
       projectName: "Thanos",
-      subtitle: "Contributor",
+      // subtitle: "Contributor",
       projectDesc:
         "Thanos is a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.",
       footerLink: [
@@ -209,7 +224,7 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/thanos-io/thanos/pulls?q=is%3Apr+author%3AAman-Codes+is%3Aclosed"
+          url: "https://github.com/pulls?q=is%3Apr+is%3Amerged+org%3Athanos-io+author%3AAman-Codes+sort%3Aupdated-desc+"
         }
       ]
     }
@@ -224,16 +239,16 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Winner WebCrawler Techfest",
+      title: "Winner at WebCrawler Techfest",
       subtitle:
         "1st prize in WebCrawler competition during Techfest, an international hackathon conducted by IIT Bombay.",
       image: require("./assets/images/techfestLogo.png").default,
       footerLink: []
     },
     {
-      title: "Hackfest Finalist",
+      title: "2nd Runner up at Hackfest",
       subtitle:
-        "4th position in Hackfest, a 36-hour hackathon organized by IIT (ISM) Dhanbad, and got recognized as 2nd best project by Ula",
+        "2nd runner up in Hackfest 2022, a 36-hour hackathon organized by IIT (ISM) Dhanbad",
       image: require("./assets/images/hackfestLogo.jpg").default,
       footerLink: [
         // {
@@ -244,7 +259,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Codebyte",
+      title: "Winner at Codebyte",
       subtitle:
         "Ranked 1st out of 100+ teams in Codebyte, website development competition at IIT (ISM) Dhanbad",
       image: require("./assets/images/codebyteLogo.jpg").default,
@@ -267,17 +282,16 @@ const blogSection = {
         "My pre-GSoC journey in a nutshell: It’s more difficult to reach from level 0 to level 1 than from level 1 to level 10."
     },
     {
+      url: "https://www.cncf.io/blog/2022/08/11/my-experience-contributing-to-litmuschaos-as-a-student/",
+      title: "LFX Mentorship with LitmusChaos",
+      description: "Starting my journey with Litmus Chaos (a CNCF incubating project) to contribute and learn about chaos engineering and cloud native technologies."
+    },
+    {
       url: "https://aman-codes.medium.com/google-summer-of-code-2021-with-fossology-ef14bfb8bad2",
       title: "GSoC 2021 with FOSSology",
       description:
         "An amazing experience, numerous lines of code, implementation from scratch, a lot of debugging, and above all a great learning opportunity describes my GSoC journey."
     },
-    {
-      url: "https://aman-codes.medium.com/kick-start-of-my-lfx-mentorship-with-litmus-chaos-eeb089a10951",
-      title: "LFX Mentorship with Litmus Chaos",
-      description:
-        "Starting my journey with Litmus Chaos (a CNCF sandbox project) to contribute and learn about chaos engineering and cloud native technologies."
-    }
   ],
   display: true
 };

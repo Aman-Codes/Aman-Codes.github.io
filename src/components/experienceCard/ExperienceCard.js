@@ -6,9 +6,23 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
-  function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
+  function hexToRgb(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? [
+      parseInt(result[1], 16),
+      parseInt(result[2], 16),
+      parseInt(result[3], 16)
+     ] : [0,0,0];
+  }
+
+  function getColorArrays(overrideColor) {
+    if(overrideColor) {
+      setColorArrays(hexToRgb(overrideColor));
+      return;
+    } else {
+      const colorThief = new ColorThief();
+      setColorArrays(colorThief.getColor(imgRef.current));
+    }    
   }
 
   function rgb(values) {
@@ -44,7 +58,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           className="experience-roundedimg"
           src={cardInfo.companylogo}
           alt={cardInfo.company}
-          onLoad={() => getColorArrays()}
+          onLoad={() => getColorArrays(cardInfo.overrideColor)}
         />
       </div>
       <div className="experience-text-details">
