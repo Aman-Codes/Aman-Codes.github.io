@@ -12,7 +12,7 @@ const greeting = {
     "Full Stack Developer 🚀 || Open Source enthusiast 👨‍💻 || IIT (ISM) Dhanbad 🎓"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OVQIwxECFVwB2SaRsT-ynDG6L2ayD6nr/view?usp=share_link",
+    "https://drive.google.com/file/d/1yXKFN0aZe0QIWYdF-PQOPnPBSdxPopE0/view?usp=share_link",
   displayGreeting: true
 };
 
@@ -129,7 +129,7 @@ const educationInfo = {
       logo: IITLogo,
       subHeader: "Integrated Master of Technology in Mathematics and Computing",
       duration: "July 2019 - Present",
-      desc: "CGPA: 8.87"
+      desc: "CGPA: 8.94"
     }
   ]
 };
