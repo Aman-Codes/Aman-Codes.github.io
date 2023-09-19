@@ -129,7 +129,7 @@ const educationInfo = {
       logo: IITLogo,
       subHeader: "Integrated Master of Technology in Mathematics and Computing",
       duration: "July 2019 - Present",
-      desc: "CGPA: 8.94"
+      desc: "CGPA: 8.93"
     }
   ]
 };
@@ -139,9 +139,22 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer Intern",
+      company: "Salesforce",
+      companylogo: require("./assets/images/salesforce.png").default,
+      date: "June 2023 - July 2023",
+      desc: "Eliminated developer's need to switch between local IDEs and dedicated notebooks by providing a seamless cloud based coding environment within the browser.",
+      overrideColor: "#0D9DDA",
+      // descBullets: [
+      //   "Developed frontend in React",
+      //   "Connected with Node.js backend",
+      //   "Addded SSL certificate and deployed on AWS"
+      // ]
+    },
+    {
+      role: "Software Engineer Intern",
       company: "ChaosNative (Harness)",
       companylogo: require("./assets/images/chaosNativeLogo.jpg").default,
-      date: "January 2022 - June 2022",
+      date: "Jan 2022 - June 2022",
       desc: "Prepared 100+ test cases to perform API testing using Cypress and reported several critical security vulnerabilities. Built a GitHub action pipeline to run automated tests for every PR.",
       overrideColor: "#ee2767",
       // descBullets: [
@@ -154,14 +167,14 @@ const workExperiences = {
       role: "Linux Foundation Externship Mentee",
       company: "LitmusChaos",
       companylogo: require("./assets/images/lfx.png").default,
-      date: "September 2021 - November 2021",
+      date: "Sept 2021 - Nov 2021",
       desc: "Developed an E2E dashboard with CI/CD pipeline details and enhanced the Litmus E2E website. Created a Go server to fetch GitHub pipeline run logs.",
     },
     {
       role: "Google Summer of Code",
-      company: "FOSSology",
+      company: "Fossology",
       companylogo: require("./assets/images/gsocLogo.png").default,
-      date: "June 2021 - August 2021",
+      date: "June 2021 - Aug 2021",
       desc: "Migrated UI from PHP to React while ensuring a highly scalable, flexible and maintainable code architecture. Upgraded the existing API and integrated it with the new frontend code.",
     }
   ]
